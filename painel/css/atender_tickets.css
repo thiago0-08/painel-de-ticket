@@ -1,0 +1,76 @@
+body {
+    background: #1c1c1c; 
+    color: white;
+    font-family: Arial, sans-serif; 
+}
+
+.navbar {
+    border-bottom: 2px solid #444; /* Linha inferior na navbar */
+}
+ /* -=-=-=-=-=-=-=-=-=  Cards -=-=-=-=-=-=-=-=-=  */
+.bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(44 48 52) !important;
+}
+#Tickets_Aberto .ticket-card {
+    border-bottom: 3px solid purple;     
+    border-top-left-radius: 10px;         
+    border-top-right-radius: 10px;        
+}
+#Tickets_Resolvidos .ticket-card {
+    border-bottom: 3px solid green;     
+    border-top-left-radius: 10px;         
+    border-top-right-radius: 10px;        
+}
+
+#Revisão_Tickets .ticket-card {
+    border-bottom: 3px solid yellow;     
+    border-top-left-radius: 10px;         
+    border-top-right-radius: 10px;        
+}
+#Tickets_Cancelados .ticket-card {
+    border-bottom: 3px solid red;     
+    border-top-left-radius: 10px;         
+    border-top-right-radius: 10px;        
+}
+
+
+.tabela{
+    margin: 20px;
+}
+
+
+.ticket-card-icon {
+    font-size: 1.5rem;
+    color: #ddd;
+}
+.data-atual {
+    font-size: 0.7rem; /* -=-=-=-=-=-=-=-=-=  Tamanho da data -=-=-=-=-=-=-=-=-=  */
+    margin: 0;
+}
+.table {
+    margin-top: 20px; 
+}
+.table th, .table td {
+    vertical-align: middle; 
+}
+.table-dark {
+    background-color: #343a40;
+}
+
+/*  -=-=-=-=-=-=-=-=-=  cor dos icones  -=-=-=-=-=-=-=-=-=  */
+.fa-ticket{
+    color: rgb(216, 72, 216);
+}
+
+.bi-check-lg{
+    color: #28a745;
+}
+
+.bi-binoculars{
+    color: yellow;
+}
+
+.fa-ban{
+    color: red;
+}
